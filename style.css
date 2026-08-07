@@ -113,6 +113,16 @@ body {
 	text-align: center;
 }
 
+@media (max-width: 593px) {
+	#header-container {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: center;
+	}
+}
+
 .information-header {
 	display: flex;
 	flex-direction: column;
@@ -257,7 +267,6 @@ footer p {
 	margin-bottom: 10px;
 }
 
-
 .nav-form-othersPages {
 	padding: 8px;
 	border-radius: 8px;
@@ -272,7 +281,7 @@ footer p {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	height: 8vh;	
+	height: 8vh;
 }
 
 /* 2521 SECTION */
@@ -456,7 +465,6 @@ footer p {
 	box-shadow: 0 0 10px var(--terciary-Color);
 }
 
-
 /* MR ROBOT */
 #mrRobot-container {
 	margin: 50px 0 50px 50px;
@@ -567,7 +575,6 @@ footer p {
 	border: 5px solid var(--fourth-Color);
 	box-shadow: 0 0 3px var(--fourth-Color);
 	overflow: hidden;
-	
 }
 
 .button-theLongWalk:hover {
@@ -626,7 +633,6 @@ footer p {
 	border: 5px solid var(--fourth-Color);
 	box-shadow: 0 0 3px var(--fourth-Color);
 	overflow: hidden;
-	
 }
 
 .button-elemental:hover {
@@ -685,7 +691,6 @@ footer p {
 	border: 5px solid var(--fourth-Color);
 	box-shadow: 0 0 3px var(--fourth-Color);
 	overflow: hidden;
-	
 }
 
 .button-clouds:hover {
@@ -744,7 +749,6 @@ footer p {
 	border: 5px solid var(--fourth-Color);
 	box-shadow: 0 0 3px var(--fourth-Color);
 	overflow: hidden;
-	
 }
 
 .button-wordsBubble:hover {
@@ -803,7 +807,6 @@ footer p {
 	border: 5px solid var(--fourth-Color);
 	box-shadow: 0 0 3px var(--fourth-Color);
 	overflow: hidden;
-	
 }
 
 .button-blueBox:hover {
@@ -862,7 +865,6 @@ footer p {
 	border: 5px solid var(--fourth-Color);
 	box-shadow: 0 0 3px var(--fourth-Color);
 	overflow: hidden;
-	
 }
 
 .button-koeNoKatachi:hover {
@@ -921,7 +923,6 @@ footer p {
 	border: 5px solid var(--fourth-Color);
 	box-shadow: 0 0 3px var(--fourth-Color);
 	overflow: hidden;
-	
 }
 
 .button-ahiruNoSora:hover {
@@ -980,7 +981,6 @@ footer p {
 	border: 5px solid var(--fourth-Color);
 	box-shadow: 0 0 3px var(--fourth-Color);
 	overflow: hidden;
-	
 }
 
 .button-yourLieInApril:hover {
@@ -1039,7 +1039,6 @@ footer p {
 	border: 5px solid var(--fourth-Color);
 	box-shadow: 0 0 3px var(--fourth-Color);
 	overflow: hidden;
-	
 }
 
 .button-sousouNoFrieren:hover {
@@ -1098,7 +1097,6 @@ footer p {
 	border: 5px solid var(--fourth-Color);
 	box-shadow: 0 0 3px var(--fourth-Color);
 	overflow: hidden;
-	
 }
 
 .button-drStone:hover {
